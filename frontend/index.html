@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar carro</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h2>Estacionamento</h2>
+    <div>
+      <a href="index.html">Adicionar</a>
+      <a href="lista.html">Lista</a>
+    </div>
+  </header>
+  <h1>Adicionar novo</h1>
+  <form id="addForm">
+      <label for="dono">Dono:</label>
+      <input type="text" id="dono" name="dono" required>
+      
+      <label for="marca">Marca:</label>
+      <input type="text" id="marca" name="marca" required>
+      
+      <label for="modelo">Modelo:</label>
+      <input type="text" id="modelo" name="modelo" required>
+      
+      <label for="placa">Placa:</label>
+      <input type="text" id="placa" name="placa" required>
+      
+      <label for="horario">Horário:</label>
+      <input type="text" id="horario" name="horario" required>
+
+    <button type="submit">Adicionar</button>
+  </form>
+  <p id="mensagem"></p>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
